@@ -1,2 +1,2 @@
 # microrr
-microrr - microservices Registry &amp; Routing Framework
+microrr - Microservices Registry &amp; Routing Framework

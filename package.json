@@ -1,0 +1,30 @@
+{
+  "name": "microrr",
+  "version": "0.1.0",
+  "description": "microrr - Microservices Registry & Routing Framework",
+  "main": "./lib/microrr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erolms/microrr.git"
+  },
+  "keywords": [
+    "microservice",
+    "microservices",
+    "cloud",
+    "registry",
+    "routing",
+    "mesh",
+    "service registry",
+    "fabric mesh",
+    "router mesh"
+  ],
+  "author": "Erol Zavidic <erolms@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erolms/microrr/issues"
+  },
+  "homepage": "https://microrr.org/"
+}
