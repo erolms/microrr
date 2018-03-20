@@ -7,8 +7,10 @@ const pkg = require("../package.json");
 
 process.title = pkg.name;
 
-program.name(pkg.name).version(pkg.version, "-v, --version");
-program.description(pkg.description);
+program
+  .name(pkg.name)
+  .version(pkg.version, "-v, --version")
+  .description(pkg.description);
 
 program.parse(process.argv);
 

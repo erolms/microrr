@@ -20,6 +20,32 @@
 
 * Follow the PR procedure above.
 
+#### **How to create a Pull Request?**
+
+1. Fork it
+2. Run `npm install`
+3. Create your feature or patch branch (`git checkout -b my-new-feature-or-patch`)
+4. Commit your changes (`git commit -am 'Added some feature/patch'`)
+5. Run `npm test`
+6. Push to the branch (`git push origin my-new-feature-or-patch`)
+7. Create new Pull Request
+
+#### **Testing**
+
+We use [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai) to write BDD tests. Run our test suite with this command:
+
+```
+npm test
+```
+
+## Code Style
+
+We use [tslint](https://github.com/palantir/tslint) to maintain code style and best practices. Please make sure your PR adheres to the guides by running:
+
+```
+npm run tslint
+```
+
 #### **Do you have questions about the source code?**
 
 * Get in contact with the Authors of the Framework. Alternatives like Slack are currently being reviewed.
