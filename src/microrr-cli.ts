@@ -3,9 +3,11 @@
 "use strict";
 
 import * as program from "commander";
+import Logger from "./util/Logger";
 const pkg = require("../package.json");
 
 process.title = pkg.name;
+const logger = new Logger().logger;
 
 program
   .name(pkg.name)
