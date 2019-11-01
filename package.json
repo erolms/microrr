@@ -39,22 +39,22 @@
   },
   "homepage": "https://microrr.org/",
   "dependencies": {
-    "commander": "~2.19.0",
-    "lodash": "~4.17.5",
+    "commander": "^2.20.3",
+    "lodash": "^4.17.15",
     "winston": "~3.2.1"
   },
   "devDependencies": {
     "@types/chai": "~4.1.2",
-    "@types/lodash": "~4.14.105",
-    "@types/mocha": "~5.2.5",
-    "@types/node": "~10.12.23",
-    "@types/shelljs": "~0.8.2",
+    "@types/lodash": "^4.14.144",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^10.17.2",
+    "@types/shelljs": "^0.8.5",
     "chai": "~4.2.0",
-    "mocha": "~5.2.0",
+    "mocha": "^5.2.0",
     "nyc": "^14.1.1",
     "shelljs": "~0.8.1",
-    "ts-node": "~8.0.1",
-    "tslint": "~5.12.1",
-    "typescript": "~3.3.3"
+    "ts-node": "^8.0.3",
+    "tslint": "^5.20.0",
+    "typescript": "^3.3.4000"
   }
 }
