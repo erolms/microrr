@@ -40,7 +40,7 @@
   "homepage": "https://microrr.org/",
   "dependencies": {
     "commander": "^2.20.3",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "winston": "~3.2.1"
   },
   "devDependencies": {
